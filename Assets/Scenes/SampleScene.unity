@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 38870788}
   - component: {fileID: 38870787}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: WALLS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.084905684, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -247,8 +247,8 @@ Transform:
   m_GameObject: {fileID: 38870786}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.056033134, y: -4.79, z: 0.014050344}
-  m_LocalScale: {x: 24.55053, y: 0.1763, z: 1}
+  m_LocalPosition: {x: -0.056033, y: -4.79, z: 0.014050344}
+  m_LocalScale: {x: 19.026659, y: 0.1763, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 49439739}
@@ -337,7 +337,7 @@ GameObject:
   - component: {fileID: 312322655}
   - component: {fileID: 312322654}
   m_Layer: 0
-  m_Name: Spinner (1)
+  m_Name: Spinners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970164fe010779b4ca9fce8c417f2640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinSpeed: 1000
+  spinSpeed: 700
 --- !u!61 &312322655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -443,7 +443,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.9622642, g: 0.06808472, b: 0.71385634, a: 1}
+  m_Color: {r: 1, g: 0.37523973, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -462,8 +462,8 @@ Transform:
   m_GameObject: {fileID: 312322653}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.035333, y: -4.928404, z: 0.14676626}
-  m_LocalScale: {x: 5.1150064, y: 0.20824625, z: 1}
+  m_LocalPosition: {x: 8.74, y: -4.54, z: 0.14676626}
+  m_LocalScale: {x: 5, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 210706212}
@@ -668,7 +668,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.5566038, g: 0.036961094, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -687,7 +687,7 @@ Transform:
   m_GameObject: {fileID: 615846356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.43, y: 0.07, z: 0}
+  m_LocalPosition: {x: 6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda6429534cd71a4f8a3722ff8e7c342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 7
   boostMultiplier: 2
   boostDuration: 3
   boostCooldown: 10
@@ -716,7 +716,7 @@ MonoBehaviour:
   upKey: 273
   downKey: 274
   boostKey: 256
-  pushKey: 266
+  pushKey: 259
 --- !u!50 &615846361
 Rigidbody2D:
   serializedVersion: 4
@@ -897,7 +897,7 @@ GameObject:
   - component: {fileID: 765183103}
   - component: {fileID: 765183102}
   m_Layer: 0
-  m_Name: Spinner (3)
+  m_Name: Spinners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970164fe010779b4ca9fce8c417f2640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinSpeed: 1000
+  spinSpeed: 700
 --- !u!61 &765183103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1003,7 +1003,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.9622642, g: 0.06808472, b: 0.71385634, a: 1}
+  m_Color: {r: 1, g: 0.37523973, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1022,8 +1022,8 @@ Transform:
   m_GameObject: {fileID: 765183101}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.164668, y: 5.5515966, z: 0.14676626}
-  m_LocalScale: {x: 5.1150064, y: 0.20824625, z: 1}
+  m_LocalPosition: {x: -8.54, y: 5.13, z: 0.14676626}
+  m_LocalScale: {x: 5, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 210706212}
@@ -1041,7 +1041,7 @@ GameObject:
   - component: {fileID: 767225921}
   - component: {fileID: 767225920}
   m_Layer: 0
-  m_Name: Spinner (4)
+  m_Name: Spinners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970164fe010779b4ca9fce8c417f2640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinSpeed: 1000
+  spinSpeed: 700
 --- !u!61 &767225921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1147,7 +1147,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.9622642, g: 0.06808472, b: 0.71385634, a: 1}
+  m_Color: {r: 1, g: 0.37523973, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1166,8 +1166,8 @@ Transform:
   m_GameObject: {fileID: 767225919}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.564668, y: -4.9184036, z: 0.14676626}
-  m_LocalScale: {x: 5.1150064, y: 0.20824625, z: 1}
+  m_LocalPosition: {x: -8.58, y: -4.55, z: 0.14676626}
+  m_LocalScale: {x: 5, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 210706212}
@@ -1184,7 +1184,7 @@ GameObject:
   - component: {fileID: 1016019355}
   - component: {fileID: 1016019354}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: WALLS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1277,7 +1277,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.084905684, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1296,8 +1296,8 @@ Transform:
   m_GameObject: {fileID: 1016019353}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.056033134, y: 5.16, z: 0.014050344}
-  m_LocalScale: {x: 24.55053, y: 0.1763, z: 1}
+  m_LocalPosition: {x: -0.056033, y: 5.16, z: 0.014050344}
+  m_LocalScale: {x: 19.947306, y: 0.1763, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 49439739}
@@ -1314,7 +1314,7 @@ GameObject:
   - component: {fileID: 1607373214}
   - component: {fileID: 1607373213}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: WALLS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1407,7 +1407,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.084905684, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1426,8 +1426,8 @@ Transform:
   m_GameObject: {fileID: 1607373212}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 9.86, y: 0.23, z: 0.014050344}
-  m_LocalScale: {x: 10.690511, y: 0.17629999, z: 1}
+  m_LocalPosition: {x: 8.44, y: 0.23, z: 0.014050344}
+  m_LocalScale: {x: 11.091405, y: 0.17629999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 49439739}
@@ -1445,7 +1445,7 @@ GameObject:
   - component: {fileID: 1620241964}
   - component: {fileID: 1620241965}
   m_Layer: 0
-  m_Name: Spinner
+  m_Name: Spinners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1460,8 +1460,8 @@ Transform:
   m_GameObject: {fileID: 1620241960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4355325, y: 0.20159653, z: 0.14676626}
-  m_LocalScale: {x: 5.1150064, y: 0.20824625, z: 1}
+  m_LocalPosition: {x: 0.1, y: 0.34, z: 0.14676626}
+  m_LocalScale: {x: 2.0460026, y: 0.12494775, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 210706212}
@@ -1508,7 +1508,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.688581, a: 1}
+  m_Color: {r: 1, g: 0.37523973, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970164fe010779b4ca9fce8c417f2640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinSpeed: 1000
+  spinSpeed: 700
 --- !u!1 &1674874027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,7 +1588,7 @@ GameObject:
   - component: {fileID: 1674874029}
   - component: {fileID: 1674874028}
   m_Layer: 0
-  m_Name: Capsule (3)
+  m_Name: WALLS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1681,7 +1681,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.084905684, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1700,8 +1700,8 @@ Transform:
   m_GameObject: {fileID: 1674874027}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -10.61, y: 0.24, z: 0.014050344}
-  m_LocalScale: {x: 10.311223, y: 0.17629999, z: 1}
+  m_LocalPosition: {x: -9.19, y: 0.24, z: 0.014050344}
+  m_LocalScale: {x: 11.084565, y: 0.17629999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 49439739}
@@ -1719,7 +1719,7 @@ GameObject:
   - component: {fileID: 1823055293}
   - component: {fileID: 1823055292}
   m_Layer: 0
-  m_Name: Spinner (2)
+  m_Name: Spinners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970164fe010779b4ca9fce8c417f2640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinSpeed: 1000
+  spinSpeed: 700
 --- !u!61 &1823055293
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1825,7 +1825,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.9622642, g: 0.06808472, b: 0.71385634, a: 1}
+  m_Color: {r: 1, g: 0.37523973, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1844,8 +1844,8 @@ Transform:
   m_GameObject: {fileID: 1823055291}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.745333, y: 5.5815964, z: 0.14676626}
-  m_LocalScale: {x: 5.1150064, y: 0.20824625, z: 1}
+  m_LocalPosition: {x: 8.89, y: 5.19, z: 0.14676626}
+  m_LocalScale: {x: 5, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 210706212}
@@ -1865,7 +1865,7 @@ GameObject:
   - component: {fileID: 2040213294}
   - component: {fileID: 2040213296}
   m_Layer: 0
-  m_Name: ' Player 1'
+  m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1913,7 +1913,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.23403311, b: 1, a: 1}
+  m_Color: {r: 0.029707607, g: 0, b: 0.6886792, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1932,7 +1932,7 @@ Transform:
   m_GameObject: {fileID: 2040213289}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.81, y: 0.07, z: 0}
+  m_LocalPosition: {x: -6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1950,7 +1950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda6429534cd71a4f8a3722ff8e7c342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 7
   boostMultiplier: 2
   boostDuration: 3
   boostCooldown: 10
